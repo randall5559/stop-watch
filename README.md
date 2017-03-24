@@ -1,4 +1,4 @@
-# stopWatch
+# Stop Watch
 
 Example of a stop watch timer similiar to that found on the iOS in pure JS.
 
