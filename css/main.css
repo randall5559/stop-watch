@@ -1,0 +1,121 @@
+html {}
+
+body {
+	margin: auto;
+	width: 320px;
+	height: 568px;
+	border: #ccc thin solid;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+header {
+	width: 320px;
+	height: 50px;
+	margin: auto;
+	padding-top: 0px;
+	background-color: #ececec;
+	border-bottom: #ccc thin solid;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+}
+
+header div {
+	padding-top: 15px;
+}
+
+main {
+	width: 320px;
+	height: 468px;
+	margin: auto;
+	background-color: #ececec;
+}
+
+#time-bar {
+	background-color: #fff;
+	padding: 30px 10px;
+}
+
+#time-bar .sec-small {
+	text-align: right;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 20px;
+	color: #ccc;
+}
+
+#time-bar .sec-big {
+	text-align: right;
+	font-size: 75px;
+	margin: 0;
+	font-weight: lighter;
+}
+
+#controls {
+	border-top: #ccc thin solid;
+}
+
+#controls .btn-group {
+	width: 225px;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#controls .btn-group a {
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+	line-height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+#controls .btn-group a:first-child {
+	color: green;
+	float: left;
+}
+
+#controls .btn-group a:last-child {
+	color: #666;
+	float: right;
+}
+
+#controls .time-lapsed {
+	width: 100%;
+	padding: 0;
+}
+
+#controls .time-lapsed ul {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	height: 150px;
+}
+
+#controls .time-lapsed ul li {
+	padding: 10px 0px;
+	border-bottom: #ccc thin solid;
+}
+
+#controls .time-lapsed ul li div:first-child {
+	float: left;
+	margin-left: 10px;
+	color: #666;
+}
+
+#controls .time-lapsed ul li div:last-child {
+	float: right;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+footer {
+	height: 50px;
+	border-top: #ccc thin solid;
+}

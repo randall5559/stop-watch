@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<div>Stopwatch</div>
+		</header>
+		<main>
+			<div id="time-bar">
+				<h5 class="sec-small">00:00.00</h5>
+				<h1 class="sec-big">00:00.00</h1>
+			</div>
+			<div id="controls">
+				<div class="btn-group">
+					<a href="javascript:void(0);" id="startTimer" onclick="start.startStop();">Start</a>
+					<a href="javascript:void(0);" id="reset" onclick="start.reset();">Reset</a>
+				</div>
+				<div class="time-lapsed">
+					<ul></ul>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+		<script src="js/stopwatch.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "stop-watch",
+  "version": "1.0.0",
+  "description": "iPhone stop watch design brought to the browser",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "karma": "^1.5.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.3"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Akers",
+  "license": "ISC"
+}
