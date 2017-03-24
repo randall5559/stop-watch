@@ -1,8 +1,6 @@
 # stopWatch
-stopWatch applicaiton in pure JS
 
-Example of a stopWatch timer similiar to that found on the iOS
-
+Example of a stop watch timer similiar to that found on the iOS in pure JS.
 
 ### Run Test
 
